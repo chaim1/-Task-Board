@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+        crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body onload="loadTask()" ;class="">
+    <!-- onbeforeunload="pushLocal()"; -->
+    <header>
+        <div class="container-fluid text-center">
+            <div>
+                <img class="mt-4" src="/imag/title.png" alt="header">
+            </div>
+        </div>
+    </header>
+    <main>
+        <header>
+            <div class="container mt-4">
+                <div class="row">
+                    <div class="row bgForm col-md-6 col-md-offset-3 col-xs-10 col-xs-offset-1">
+                        <form onsubmit="eddTask(event)" action="">
+                            <div class="mt col-md-6">
+                                <label class="mt-4" for="time"> שעה
+                                    <input class="claer block form-control borders" type="text" id="time" placeholder="mm/hh" required>
+                                    <div id="tempWorn1">
+
+                                    </div>
+                                </label>
+                                <label class="mt " for="date"> תאריך
+                                    <input class="claer block form-control borders" type="text" id="date" placeholder="dd/mm/yyyy" required>
+                                    <div id="tempWorn2">
+
+                                    </div>
+                                </label>
+                            </div>
+                            <div class="flowIden">
+                                <label for="contentTask">
+                                    <h4 style="text-align:left">תוכן המשימה</h4>
+                                    <textarea class="claer borders" name="" id="contentTask" cols="30" rows="10" placeholder="תוכן המשימה" required></textarea>
+
+                                </label>
+
+                            </div>
+                            <div class="col-md-6 col-md-offset-3">
+                                <div id="eror">
+
+                                </div>
+                                <button class="btn-lg btn-block" type="submit">
+                                    <strong> הוסף </strong>
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+
+                </div>
+            </div>
+        </header>
+
+        <main>
+            <div class="container ">
+                <div id="row" class="row">
+                </div>
+            </div>
+        </main>
+    </main>
+
+    <footer>
+
+    </footer>
+
+
+
+    <script src="main.js"></script>
+</body>
+
+</html>

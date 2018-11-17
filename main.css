@@ -1,0 +1,79 @@
+body{
+    border: 5px solid black;
+    border-radius: 35px;
+    margin: 0 auto;
+    background-image:url('/imag/tile.jpg');
+    width: 90%;
+    height: 90%;
+} 
+.mt-4{
+    margin-top: 1.5%;
+}
+.bgForm{
+    background-image: url('/imag/formbg.jpg');
+}
+.block{
+    display: block;
+}
+.flowIden{
+    overflow: hidden;
+}
+button{
+    margin: 4% 0 4% 0;
+}
+.mt{
+    margin-top: 10%;
+}
+.notedg{
+    background-image: url('/imag/notebg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+}
+#dateDoc{
+    margin-top: 2.5%;
+}
+#contentDoc{
+    font-family: 'Indie Flower', cursive;
+    overflow-x: scroll;
+    white-space: normal;
+    width: 90%;
+    max-height:200px ;
+    min-height: 200px;
+    margin-top: 30%;
+    margin-left: 10px;
+    padding: 10px;
+} 
+#contentDoc1{
+    font-family: 'Indie Flower', cursive;
+    overflow-x: scroll;
+    white-space: normal;
+    width: 90%;
+    max-height:200px ;
+    min-height: 200px;
+    margin-top: 0;
+    padding: 10px;
+
+}
+
+.butenDelite{
+    margin-top: 27px;
+    margin-left: 86%;    
+}
+#deleteTask{
+    display: none;
+}
+div:hover > p > #deleteTask{
+    display: inline;
+} 
+@keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+.borders{
+    border: 1px solid black;
+}
